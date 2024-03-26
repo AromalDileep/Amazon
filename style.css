@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+.logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 113px;
+}
+.border {
+  border: 1.5px solid transparent;
+  border-radius: 2px;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+/** box 2**/
+.address-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.address-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+/** box-3 **/
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  font: 1rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #131921;
+}
+.search-icon:hover {
+  background-color: #f3a847;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+  border-radius: 6px;
+}
+/** box-4 **/
+span {
+  font-size: 0.7rem;
+}
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/** last box **/
+
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/** Panel **/
+.panel {
+  height: 40px;
+  background-color: #232f3e;
+  width: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel a {
+  color: white;
+  text-decoration: none;
+}
+.panel-ops p {
+  display: inline;
+  margin-left: 15px;
+}
+.panel-ops a {
+  color: white;
+  text-decoration: none;
+}
+.panel-ops {
+  width: 80%;
+  font-size: 0.85rem;
+}
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/** hero section **/
+
+.hero-section {
+  background-image: url("hero_image.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 95%;
+  margin-bottom: 25px;
+}
+.hero-msg a {
+  color: #007185;
+}
+/** shop section **/
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom, #f3490b, #e3e6e6),
+    linear-gradient(to bottom, #ffd0be, #e3e6e6);
+  background-repeat: no-repeat;
+  background-size: 53% 100%;
+  background-position: left, right;
+  background-color: #007185;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.box h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  margin-top: 7px;
+}
+
+.box a {
+  text-decoration: none;
+  font-size: small;
+  color: #007185;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.box-img {
+  height: 300px;
+  width: 270px;
+}
+.box-1 {
+  margin-left: 19px;
+  margin-top: 5px;
+  height: 294px;
+  width: 270px;
+  margin-bottom: 26px;
+}
+
+.box-2 {
+  height: 299px;
+  width: 270px;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 21px;
+}
+.box-3 {
+  margin-left: 19px;
+  margin-bottom: 25px;
+}
+.box-4 {
+  margin-left: 20px;
+  margin-bottom: 24px;
+}
+.box-5 {
+  margin-left: 19px;
+  margin-bottom: 19px;
+}
+.box-6 {
+  margin-left: 19px;
+  height: 280px;
+  margin-bottom: 16px;
+}
+.box-7 {
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.box-8 {
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+/** deals **/
+.deals {
+  height: 400px;
+  width: 100%;
+  background-color: #e3e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deals-div {
+  width: 97%;
+  height: 90%;
+  background-color: white;
+}
+.deals-text {
+  height: 10%;
+  width: 100%;
+
+  display: flex;
+}
+.deals-text h2 {
+  font-size: 21px;
+  margin-right: 10px;
+  margin-left: 35px;
+}
+.deal-content {
+  width: 95%;
+  height: 80%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.deal-box {
+  width: 18%;
+  height: 75%;
+  background-color: #f7f8f8;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.under-box {
+  height: 60px;
+  width: 18%;
+  cursor: pointer;
+}
+.deal-rate {
+  background-color: #cc0c39;
+  width: 50px;
+  height: 35%;
+  border-radius: 4px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/** footer **/
+footer {
+  margin-top: 15px;
+}
+footer a {
+  text-decoration: none;
+  color: #d7d5d8;
+}
+.foot-panel-1 {
+  background-color: #485769;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot-panel-2 {
+  background-color: #232f3e;
+  color: white;
+  height: 370px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+ul {
+  margin-top: 45px;
+}
+.foot-panel-3 {
+  background-color: #232f3e;
+  color: white;
+  border-top: 0.5px solid #485769;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 113px;
+}
+.foot-panel-4 {
+  background-color: #131a22;
+  color: white;
+  height: 80px;
+}
+.pages {
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 20px;
+}
+.copyright {
+  font-size: 0.7rem;
+  text-align: center;
+}
